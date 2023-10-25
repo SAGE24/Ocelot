@@ -1,0 +1,40 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/Authentication/{everything}",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7096
+        }
+      ],
+      "DownstreamPathTemplate": "/api/auth/{everything}",
+      "RateLimitOptions": {
+        "EnableRateLimiting": true,
+        "Period": "5s",
+        "PeriodTimespan": 3,
+        "Limit": 1
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/MineralType/{everything}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7096
+        }
+      ],
+      "DownstreamPathTemplate": "/api/mineraltype/{everything}",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer"
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5090"
+  }
+}

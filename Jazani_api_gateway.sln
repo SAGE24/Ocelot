@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{E2F7F535-2F9A-46F8-AFA6-207575648E96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{371DBE59-4D37-408E-A22E-083E0A908EB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2783FADD-26E7-4667-9E7C-609D9D74C91C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jazani.api", "jazani.api\jazani.api.csproj", "{1D71034D-2C85-4B24-B454-6553CC5DD1D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D71034D-2C85-4B24-B454-6553CC5DD1D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D71034D-2C85-4B24-B454-6553CC5DD1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D71034D-2C85-4B24-B454-6553CC5DD1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D71034D-2C85-4B24-B454-6553CC5DD1D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D71034D-2C85-4B24-B454-6553CC5DD1D5} = {371DBE59-4D37-408E-A22E-083E0A908EB6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {876E09FF-AC37-4FEB-8B07-5543A6D89873}
+	EndGlobalSection
+EndGlobal
